@@ -28,38 +28,27 @@ body {
     padding: 10px;
     border-radius: 10px;
     width: 30%;
-	height: 30vh;
+    height: 30vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .main-article {
-	 background-color: #ffffff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     width: 30%;
-	height: 50vh;
+    height: 50vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
 }
 
 .pictorial-news-section {
-	 background-color: #ffffff;
+    background-color: #ffffff;
     padding: 20px;
     border-radius: 10px;
     width: 30%;
+    height: 70vh;
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
-
-}
-.latest-news-section {
-    min-height: 100px; /* Minimum height for the first column */
-}
-
-.main-article {
-    min-height: 200px; /* Medium height for the second column */
-}
-
-.pictorial-news-section {
-    min-height: 300px; /* Large height for the third column */
+    text-align: center; /* Ensure content is centered */
 }
 
 .latest-news-section h3, .pictorial-news-section h3 {
@@ -73,8 +62,8 @@ body {
 
 .latest-news-section li {
     margin-bottom: 5px;
-	 padding-left: 10px; /* Adjust padding for each list item */
-    text-indent: -10px; 
+    padding-left: 10px; /* Adjust padding for each list item */
+    text-indent: -10px; /* Create a gap between the bullet and the text */
 }
 
 .main-article h2 {
@@ -89,6 +78,7 @@ body {
     display: flex;
     flex-direction: column;
     gap: 10px;
+    align-items: center; /* Center images within the section */
 }
 
 .pictorial-news-section img {
